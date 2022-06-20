@@ -95,7 +95,7 @@ The SDK provides a `upload` utility to upload images directly from the browser w
 | parameter                                                            | type                                                                                                                                 |
 | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | file ([File](https://developer.mozilla.org/en-US/docs/Web/API/File)) | File to upload to Pixelbin                                                                                                           |
-| signedDetails (Object)                                               | `signedDetails` can be generated with the Pixelbin Backend SDK [@pixelbin/admin](https://github.com/pixelbin-dev/pixelbin-js-admin). |
+| signedDetails (Object)                                               | `signedDetails` can be generated with the Pixelbin Backend SDK [@pixelbin/admin](https://github.com/g-abhishek/pixelbin-js-admin). |
 
 **returns**: Promise
 
@@ -110,7 +110,7 @@ Example :
 <input type="file" id="fileInput" />
 ```
 
-2. Generate the presignedUrl with the backend sdk. [click here](https://github.com/pixelbin-dev/pixelbin-js-admin/blob/main/documentation/platform/ASSETS.md#createsignedurl).
+2. Generate the presignedUrl with the backend sdk. [click here](https://github.com/g-abhishek/pixelbin-js-admin/blob/main/documentation/platform/ASSETS.md#createsignedurl).
 
 3. Use the response object as is with the upload api as shown below.
 
