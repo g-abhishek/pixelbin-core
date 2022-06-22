@@ -34,7 +34,9 @@
     "main": "./lib/cjs/pixelbin.js",
     "module": "./lib/esm/pixelbin.js",
     "files": [
-        "lib/"
+        "dist",
+        "lib",
+        "README.md"
     ],
     "author": "Pixelbin",
     "license": "MIT"
